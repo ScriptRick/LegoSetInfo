@@ -1,0 +1,7 @@
+</parameters>
+<content>
+    <message>      Creating HTML File    </message>
+    <templateFile source='template.html' destination='${PLASTER_PARAM_number}.html'/>
+	<templateFile source='templatesmall.html' destination='${PLASTER_PARAM_number}small.html'/>
+</content>
+</plasterManifest>

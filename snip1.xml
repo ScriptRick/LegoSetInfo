@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plasterManifest
+ schemaVersion="1.1"
+ templateType="Project" xmlns="http://www.microsoft.com/schemas/PowerShell/Plaster/v1">
+  <metadata>
+    <name>LegoInfoSheet</name>
+    <id>619bf9e4-b2e3-4db8-946a-8a84cfc5c74d</id>
+    <version>1.0.0</version>
+    <title>LegoInfoSheet</title>
+    <description>Creates Info Sheet for Lego sets</description>
+    <author>Rick Johnson</author>
+    <tags></tags>
+  </metadata>
+  <parameters>

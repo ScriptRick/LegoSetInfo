@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Lego Set</title></head>
+<body>
+<h1><%= $PLASTER_PARAM_number %> - <%= $PLASTER_PARAM_name %></h1>
+<hr style="width: 100%; height: 2px;">
+<p></p>
+<table style="width: 90%; height: 482px; text-align: left; margin-left: auto; margin-right: auto;" border="1" cellpadding="2" cellspacing="2">
+<tbody>
+<tr>
+<td><div style="text-align: center;">
+</div><table style="width: 331px; height: 312px; text-align: left; margin-left: auto; margin-right: auto;" border="0" cellpadding="3" cellspacing="2">
+<tbody>
+<tr>
+<th style="text-align: right;">Year</th>
+<td style="font-weight: bold;"><%= $PLASTER_PARAM_year %></td>
+</tr>
+<tr>
+<th style="text-align: right;">Ages</th>
+<td><%= $PLASTER_PARAM_ageMin %> - <%= $PLASTER_PARAM_ageMax %></td>
+</tr>
+<tr>
+<th style="text-align: right;">Pieces</th>
+<td style="font-weight: bold;"><big><%= $PLASTER_PARAM_pieces %></big></td>
+</tr>
+<tr>
+<th style="text-align: right;">Minifigs</th>
+<td><%= $PLASTER_PARAM_minifigs %></td>
+</tr>
+<tr>
+<th style="text-align: right;">Theme Group</th>
+<td><%= $PLASTER_PARAM_themeGroup %></td>
+</tr>
+<tr>
+<th style="text-align: right;">Theme</th>
+<td><%= $PLASTER_PARAM_theme %></td>
+</tr>
+<tr>
+<th style="text-align: right;">Subtheme</th>
+<td><%= $PLASTER_PARAM_subtheme %></td>
+</tr>
+<tr>
+<th style="text-align: right;">Availability</th>
+<td><%= $PLASTER_PARAM_availability %></td>
+</tr>
+<tr>
+<th style="text-align: right;">Retail Price</th>
+<td>$<%= $PLASTER_PARAM_USRetailPrice %></td>
+</tr>
+<tr>
+<th style="text-align: right;">Available From</th>
+<td><%= $PLASTER_PARAM_USDateAddedToSAH %> </td>
+</tr>
+<tr>
+<th style="text-align: right;">To</th>
+<td><%= $PLASTER_PARAM_USDateRemovedFromSAH %></td>
+</tr>
+</tbody>
+</table>
+<big style="font-weight: bold;">Notes:</big><br>
+<%= $PLASTER_PARAM_notes %></td>
+<td style="text-align: right; width: 50%;"><img style="width: 691px; height: 465px;" alt="LegoSetImage" src="<%= $PLASTER_PARAM_imageURL %>"></td>
+</tr>
+</tbody>
+</table>
+<p style="font-weight: bold;">Description</p>
+<%= $PLASTER_PARAM_description %>
+</body></html>
